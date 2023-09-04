@@ -1,6 +1,6 @@
 import pandas as pd
 
-fp = r"data/029440.txt"
+fp = r"C:\Users\calebs\Documents\Geo-Python\Lesson6\data/029440.txt"
 data = pd.read_csv(
     fp, delim_whitespace=True,
       usecols=["USAF", "YR--MODAHRMN", "DIR", 
